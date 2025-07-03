@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/09/2023, 08:07:14 PM
+    Author     : jorda
+*/
+#olvidoContrasena{
+    -fx-underline: true;
+}
+#olvidoContrasena:hover{
+    -fx-cursor: hand;
+}
+#paneInfo{
+    -fx-background-color: linear-gradient(to top left, #000000, #CD1719);
+}
+
+#iniciarSesion:hover{
+    -fx-text-fill: #C70808; 
+    -fx-border-color: #007bff; 
+}
+#registrarUsuario:hover{
+    -fx-text-fill: #C70808; 
+    -fx-border-color: #007bff; 
+}
+
+.textField{
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #cd1719;
+}
+.textField1{
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+    -fx-font-family: "Times New Roman";
+}
+.textField1:hover{
+    -fx-cursor: hand;
+}
+
+.sidebarItem{
+    -fx-background-color: #F2F2F2;
+}
+.sidebarItem:hover{
+    -fx-background-color: #e4e2e2;
+    -fx-border-color: #bf1717;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-cursor: hand;
+}
+.border{
+    -fx-border-color: #e4e2e2;
+    -fx-border-width: 0px 2px 0px 0px;
+}
+.btnregi{
+    -fx-background-radius: 15;
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0, 0, 2);
+}
+.btnregi:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 5, 0, 0, 1);
+    -fx-translate-y: 3; 
+}
+.btnregi:hover{
+    -fx-cursor: hand;
+}
+.btnregi1{
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0, 0, 2);
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+.btnregi1:hover{
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0, 0, 2);
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+.btnregi1:hover, btnregi:hover {
+    -fx-cursor: hand;
+}
+
+.btnPass{
+    -fx-background-color: white;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 10;    
+    -fx-background-radius: 10;
+
+}
+
+.btnPass:hover{
+    -fx-background-color: black;    
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 10, 0, 0, 2);
+}
+
+.textPass{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cd1719;
+    -fx-background-color: white;
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+}
+.textPass:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 1); 
+}
+.table-view {
+    -fx-background-color:black;
+    -fx-background-radius:7 7 0 0;
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0)
+}
+.table-view .column-header-background{
+    -fx-background-color: black;
+    -fx-background-radius:7;
+    -fx-background-insets: 0 0 5 0;
+
+}
+.table-view .column-header, .table-view .filler{
+    -fx-size:40px;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color:transparent;
+
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white ;
+    -fx-font-size: 13px;
+    -fx-font-family: "Times New Roman";
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+}
